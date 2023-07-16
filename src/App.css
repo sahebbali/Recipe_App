@@ -1,0 +1,168 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 400px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.navbar {
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(117, 223, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.navitem:hover{
+  color: black;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+}
+.search {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.create-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 400px;
+}
+.create-recipe form {
+  display: flex;
+  flex-direction: column;
+}
+/* 
+Home css */
+
+.container{
+  width: 90%;
+  height: fit-content;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.cardContain{
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+}
+.card{
+  height: 500px;
+  width: 370px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.recipeImage{
+  height: 300px;
+  width: 350px;
+  padding: 10px;
+}
+/* img {
+  max-width: 100%;
+  width: 400px;
+  height: 30px;
+  height: auto;
+  margin-bottom: 10px;
+} */
+
+
+
+p {
+  max-width: 400px;
+  font-size: 12px;
+}
+.btn{
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 20px;
+  color: white;
+  background-color: rgb(223, 19, 19);
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+ .btn:hover{
+color: black;
+}
